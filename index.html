@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>   
+<meta charset="UTF-8">
+<title>Dainty Kitchen</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/10f5dac1f1.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="logo">Dainty Kitchen</h1>
+  <h3 id="top-text">African Cuisine at it's best<h3>
+  
+    <header id="top-page">
+
+      
+            <button class="listing1">About Us</button>
+            <p class = "text1">At Dainty Kitchen, we make delicious homme made African meals.</p>
+            <button class= "listing2">Contact us</button>
+            <p class = "text2">Tel: 001160116. Email:DK@yahoo.com</p>
+            <button class="listing3">Menu</button>
+            <div class = "listing4">
+               <button>Poundo</button><br/><br/>
+               <button>Meat-Pie</button><br><br/> 
+               <button>Gizz-Dodo</button><br/><br>
+               <button>Jollof-Rice</button><br/><br/>
+               <button>Fried-Rice</button><br/><br>               
+               <button>Scotch-Egg</button><br/><br>
+               
+            </div>
+            <div id="shopping-cart">
+              <i class="fa-solid fa-cart-shopping" ></i>
+              <span id="cart-total-cost">0</span>
+            </div>
+              
+          
+            <!--button class ="listing4">Reservation</button-->
+            
+            
+         
+      <!--button class="hamburger"><i class="fa-solid fa-bars"></i></button-->
+    </header>
+  <main>
+    <div class="container">
+      <!--h1>Shopping Cart</h1-->
+      <div class="cart">
+        <div class="products">
+          <div class="product1">
+            <img id="hero-image1" src ="https://nomadparadise.com/wp-content/uploads/2020/08/nigerian-food-01-768x480.jpg.webp" alt="icon"/>
+            <div class="product-info">
+              <h3 class="jollof-rice">Jollof-Rice</h2>
+              <h2 class="jollof-price">£<span class="price-float">10</span></h2>
+              <p class="product-quantity1">Qtn: <input value="1" name=""></p>
+              <input type="submit" id = "add-btn1" class="add-btn" value="Add to basket">
+                <!--i class="fa-solid fa-trash-can-slash" id="product-remove"></i>
+                <span class="remove">Remove</span-->
+                </p>
+            </div>
+            </div>
+            <div class="product2">
+              <img id= "hero-image2" src= "https://www.nairaland.com/attachments/3876297_13108993615067192003844570845822n_jpeg04a99d9cd6aced06920655a8a3089733" alt="icon"/>
+              <div class="product-info2">
+                <h3 class="asun">Asun</h3>
+                <h2 class="jollof-price">£<span class="price-float"~>10</span></h2>
+                <p class="product2-quantity">Qtn: <input value="1" name=""></p>
+                <input type="submit" id = "add-btn2" class="add-btn" value="Add to basket">
+            </div>
+            </div>
+            <div class="product3">
+              <img id="hero-image3" src ="https://www.nairaland.com/attachments/3876309_125995131673564269563110991894637n_jpegdbb7dd573c1c2e292297d0ab7446fe97" alt="icon"/>
+              <div class="product-info3">
+                <h3 class="snail">Peppered Snail</h3>
+                <h2 class="jollof-price" id="snail-price">£<span class="price-float"~>10</span></h2>
+                <p class="product3-quantity">Qtn: <input value="1" name=""></p>
+                <input type="submit" id = "add-btn3" class="add-btn" value="Add to basket">
+              </div>
+            </div>
+           </div>
+         </div>
+      </div>
+     </div>     
+  </main>
+    
+    <!--hero start-->
+    <!--section class="hero">
+        <section class="hero-info">
+            <h1>Comida casera,<span class="hero-info-block"> saludable y</span><span class="vegana"> vegana.</span></h1>
+            <section class="hero-buttons">
+                <button>Ver Menu</button>
+                <button>Local Cerca</button>
+            </section>
+            
+        </section>
+        <img id="hero-image" src ="https://nomadparadise.com/wp-content/uploads/2020/08/nigerian-food-01-768x480.jpg.webp" alt="icon"/>
+    </section>
+    <!--hero ends-->
+    <!--specialities start-->
+    <form class="form">
+      <h3>Reservation</h3><br/>
+            <input type="text" id="name" text="username" placeholder="Name"><br><br>
+            <input type="password" id="pswd" name="password" placeholder="Email"><br><br>
+            <input type="text" id="name" text="username" placeholder="Phone No."><br><br>
+
+            <input type="submit" id = "submit" value="Submit">
+    </form>
+    <p id="log"></p>
+  </main>
+    <footer></footer>
+    <script src =app.js></script>
